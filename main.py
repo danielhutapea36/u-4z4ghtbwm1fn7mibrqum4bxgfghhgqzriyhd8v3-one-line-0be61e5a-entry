@@ -4,6 +4,9 @@
 Writes one funny line (a single sentence, at most 140 characters) to
 /output/entry.txt. Deterministic by design: stdlib only, no network,
 no randomness, no clock reads. Two runs produce byte-identical output.
+
+The joke: autocorrect swaps "fine" for "broke", and the punchline
+admits the typo is the most honest thing the phone has ever said.
 """
 
 import os
